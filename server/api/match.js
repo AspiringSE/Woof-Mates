@@ -1,7 +1,7 @@
 /* eslint-disable max-statements */
 const router = require('express').Router();
 const nodemailer = require('nodemailer');
-const { User, Relationship } = require('../db')
+const { User, Relationship, Preference } = require('../db')
 const { filterMatchesWithUserSpecifiedFilters } = require('../matchAlg/userFilters')
 const {findMatch} = require('../matchAlg/match')
 const updatePref = require('./updatePref')
