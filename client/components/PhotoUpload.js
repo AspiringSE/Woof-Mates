@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-const cloudName = process.env.CLOUDINARY_CLOUD_NAME
-const uploadPreset = process.env.CLOUDINARY_UPLOAD_PRESET
+const cloudName = 'woofmates'
+const uploadPreset = 'woofmates'
 
 export default class PhotoUpload extends Component{
     constructor(props){
