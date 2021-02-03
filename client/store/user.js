@@ -1,6 +1,6 @@
 /* eslint-disable max-params */
 import axios from 'axios';
-
+import { MAPQUEST_KEY } from '../../constants';
 //User State
 
 const REGISTER_USER = 'REGISTER_USER';
@@ -9,7 +9,6 @@ const LOGOUT = 'LOGOUT';
 const UPDATE = 'UPDATE';
 const GET_USER = 'GET_USER';
 const POST_TESTIMONIAL = 'POST_TESTIMONIAL'
-const MAPQUEST_KEY = process.env.MAPQUEST_KEY;
 
 const _login = (user) => {
     return {
